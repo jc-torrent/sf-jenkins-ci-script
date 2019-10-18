@@ -54,6 +54,9 @@ mkdir sfdx
 # unzip
 tar -xJf sfdx-linux-amd64.tar.xz -C sfdx --strip-components 1
 
+# rm unneeded zip
+rm sfdx-linux-amd64.tar.xz
+
 # Run the install script
 ./sfdx/install
 
